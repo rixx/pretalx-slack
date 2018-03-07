@@ -1,0 +1,3 @@
+recursive-include pretalx_slack/static *
+recursive-include pretalx_slack/templates *
+recursive-include pretalx_slack/locale *
