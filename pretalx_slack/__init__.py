@@ -9,7 +9,9 @@ class PluginApp(AppConfig):
     class PretalxPluginMeta:
         name = ugettext_lazy('Slack integration for pretalx')
         author = 'Tobias Kunze'
-        description = ugettext_lazy('Receive notifications whenever a submission changes its state.')
+        description = ugettext_lazy(
+            'Receive notifications whenever a submission changes its state.'
+        )
         visible = True
         version = '0.0.0'
 

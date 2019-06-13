@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-15 01:02-0500\n"
+"POT-Creation-Date: 2019-06-02 10:08+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Tobias Kunze\n"
 "Language-Team: \n"
@@ -15,6 +15,13 @@ msgstr ""
 msgid "Slack integration for pretalx"
 msgstr ""
 
-#: local/pretalx-slack/pretalx_slack/__init__.py:12
+#: local/pretalx-slack/pretalx_slack/__init__.py:13
 msgid "Receive notifications whenever a submission changes its state."
+msgstr ""
+
+#: local/pretalx-slack/pretalx_slack/signals.py:20
+#, python-brace-format
+msgid ""
+"Submission <{url}|»{title}«> has been changed from {old_state} to "
+"{new_state} by {name}."
 msgstr ""
