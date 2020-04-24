@@ -1,5 +1,5 @@
 from django.apps import AppConfig
-from django.utils.translation import ugettext_lazy
+from django.utils.translation import gettext_lazy
 
 
 class PluginApp(AppConfig):
@@ -7,9 +7,9 @@ class PluginApp(AppConfig):
     verbose_name = 'Slack integration for pretalx'
 
     class PretalxPluginMeta:
-        name = ugettext_lazy('Slack integration for pretalx')
+        name = gettext_lazy('Slack integration for pretalx')
         author = 'Tobias Kunze'
-        description = ugettext_lazy(
+        description = gettext_lazy(
             'Receive notifications whenever a submission changes its state.'
         )
         visible = True

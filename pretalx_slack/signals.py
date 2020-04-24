@@ -3,7 +3,7 @@ import json
 import requests
 from django.conf import settings
 from django.dispatch import receiver
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from pretalx.submission.signals import submission_state_change
 
 webhook = settings.CONFIG.get('slack', 'webhook_url')
