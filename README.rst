@@ -1,6 +1,9 @@
 Slack integration for pretalx
 ==========================
 
+**This plugin is not currently maintained.** If you are interested in maintaining
+this plugin, or sponsoring maintenance, please get in touch.
+
 This is a plugin for `pretalx`_. 
 
 Development setup
